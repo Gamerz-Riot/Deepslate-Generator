@@ -35,3 +35,15 @@ Just like a standard underground cobblestone/stone generator, hot lava meeting w
 1. Download the latest release `.zip` file.
 2. Drop the zip into your Minecraft world's `datapacks` folder (`<your world folder>/datapacks`).
 3. Run `/reload` in-game if the world is already open.
+
+---
+
+## 📄 License & Attribution
+This work is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+* **Creator**: `Gamerz-Riot`
+* **Source Repository**: [Deepslate-Generator](https://github.com/Gamerz-Riot/Deepslate-Generator)
+
+### Usage & Redistribution Guidelines
+* You are free to use, study, modify, and distribute this datapack.
+* **Credit & Linking**: If you share this pack, feature it in a video, or distribute modifications, you must clearly credit **Gamerz-Riot** with a clickable link back to this GitHub repository.

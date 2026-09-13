@@ -1,7 +1,12 @@
 
+# MSG of Installation
+
+execute as @a at @s run scoreboard players add @s first-load 1
+execute as @a[scores={first-load=1}] at @s run tellraw @s ["",{"text":"◆ ","color":"dark_aqua"},{"text":"Installed: ","color":"gold"},{"text":"Deepslate Generator ","color":"white"},{"text":"by ","color":"gray"},{"text":"@Gamerz_Riot","color":"aqua","click_event":{"action":"open_url","url":"https://www.youtube.com/@Gamerz_Riot"},"hover_event":{"action":"show_text","value":[{"text":"Click to Visit Youtube Channel"}]}}]
+execute as @a[scores={first-load=1}] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.5 1.0
+scoreboard players set @a[scores={first-load=2..}] first-load 2
+
 # Renewable Deepslate
-
-
 
 #Summon entity which replace Stone with Deepslate
 scoreboard players add @e[tag=magma1] magma 0

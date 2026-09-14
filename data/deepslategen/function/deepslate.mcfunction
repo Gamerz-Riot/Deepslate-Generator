@@ -68,6 +68,6 @@ execute as @e[type=armor_stand,tag=magma_air] at @s if entity @e[type=armor_stan
 
 
 
-tag @e[type=armor_stand,tag=magma_water] remove magma_water
-tag @e[type=armor_stand,tag=magma_air] remove magma_air
-tag @e[type=armor_stand,tag=magma_lava] remove magma_lava
+execute as @e[type=armor_stand,tag=magma_water] at @s run tag @s remove magma_water
+execute as @e[type=armor_stand,tag=magma_air] at @s run tag @s remove magma_air
+execute as @e[type=armor_stand,tag=magma_lava] at @s run tag @s remove magma_lava
